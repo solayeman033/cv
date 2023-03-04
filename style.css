@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:gray;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color: rgb(243, 206, 206);
+    max-width: 1000px;
+    margin: 0%;
+    padding: 20px;
+}
+header{
+
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50px;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(68, 0, 255);
+
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+
+}
+.header-contact a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.header-contact a:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+
+
+.content {
+
+}
+
+.left-div {
+    width: 30%;
+    float: left;
+    text-align: justify;
+
+}
+
+.right-div {
+    width: 70%;
+    float: left;
+    text-align: justify;
+
+}
+
+.common-hr {
+    width: 100%;
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+}
+table,th,td,tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.edu-left{
+    width: 40%;
+    float: left;
+    text-align: justify;
+
+}
+.edu-right{
+    width: 40%;
+    float: right;
+    text-align: justify;
+
+}
+h4 a:hover{
+    color: tomato;
+    text-decoration: underline;
+    
+}
+
+.bottom-content{
+    
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-content a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+
+}
+.bottom-content a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+
+.bottom-content p{
+    color: white;
+    margin-top: 10px;
+}
+
+
